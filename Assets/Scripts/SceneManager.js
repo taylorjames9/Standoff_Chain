@@ -18,8 +18,8 @@ var mainCharacter_aimState : GameObject;
 //var npc_white1_aimState: GameObject;
 
 var mainCharacterIsDead: boolean = false;
-//var badGuyIsDead: boolean = false;
-//var goodGuyIsDead: boolean = false;
+var badGuy1IsDead: boolean = false;
+var badGuy2IsDead: boolean = false;
 
 var mainCharacterShotState: int = 0;
 var badGuy1ShotState: int = 0;
@@ -27,6 +27,7 @@ var badGuy2ShotState: int = 0;
 //var goodShotState: int = 0;
 
 var guiPresent: boolean = true;
+var advance: boolean = false;
 
 function Start () {
 
@@ -42,6 +43,11 @@ var mainCharacter_script: PlayerScript = mainCharacter.GetComponent("PlayerScrip
 //npc_black1_aimState = npc_black1_script.myCurrTarget;
 //npc_white1_aimState = npc_white1_script.myCurrTarget;
 mainCharacter_aimState = mainCharacter_script.myCurrTarget;
+
+
+if(badGuy1IsDead && badGuy2IsDead){
+		advance = true;
+	}
 
 
 

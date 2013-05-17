@@ -17,6 +17,8 @@ var sceneManager : SceneManager;
 
 var aimingAt : boolean = false;
 
+var numBullets: int = 1;
+
 
 function Start () {
 
@@ -67,7 +69,7 @@ if (Input.GetMouseButtonDown(0)){
 		var rayo = Camera.main.ScreenPointToRay (Input.mousePosition);
 		var hito : RaycastHit;
 	if (Physics.Raycast (rayo, hito)) {
-    	if(hito.collider.gameObject == sceneManager.mainCharacter_aimState){
+    	if(hito.collider.gameObject == sceneManager.mainCharacter_aimState && numBullets > 0){
 			var instanceBullet = Instantiate(prefabBullet, transform.position, Quaternion.identity);
 			instanceBullet.rigidbody.AddForce((myCurrTarget.transform.position - transform.position) * shootForce);
 			
@@ -77,6 +79,7 @@ if (Input.GetMouseButtonDown(0)){
 			//sceneManager.shotFired++;
 			//yield WaitForSeconds(0.6);
 			//sceneManager.shotFiredLackey++;
+			numBullets--;
 			
 			print("mainCharacter has shot");
 		}

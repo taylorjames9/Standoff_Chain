@@ -1,11 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/bulletScript.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneManager.js">
     <Files>
-      <File FileName="Assets/Scripts/PlayerScript.js" Line="81" Column="4" />
-      <File FileName="Assets/Scripts/SceneManager.js" Line="49" Column="3" />
-      <File FileName="Assets/Scripts/iGotHit.js" Line="25" Column="39" />
-      <File FileName="Assets/Scripts/bulletScript.js" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/PlayerScript.js" Line="28" Column="3" />
+      <File FileName="Assets/Scripts/SceneManager.js" Line="30" Column="30" />
+      <File FileName="Assets/Scripts/iGotHit.js" Line="31" Column="35" />
+      <File FileName="Assets/Scripts/iShootForwardScript.js" Line="26" Column="23" />
+      <File FileName="Assets/Scripts/bulletScript.js" Line="15" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -29,5 +29,17 @@ print("something entered");
 		print("I'm about to shoot");
 		redPool.renderer.enabled = true;
 		sceneManager.badGuy1ShotState++;
+		
+		
+		if(gameObject.name == "iShootForward1_hitSphere"){
+		sceneManager.badGuy1IsDead = true;
+		print("badguy1 is dead");
+	}
+		else if(gameObject.name == "iShootForward2_hitSphere"){
+		yield WaitForSeconds (1);
+		sceneManager.badGuy2IsDead = true;
+		
+		print("badguy2 is dead");
+	}
 	}
 }

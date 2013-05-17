@@ -46,6 +46,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerScript.js" />
      <Compile Include="Assets\Scripts\SceneManager.js" />
+     <Compile Include="Assets\Scripts\advance_script.js" />
      <Compile Include="Assets\Scripts\bulletScript.js" />
      <Compile Include="Assets\Scripts\iGotHit.js" />
      <Compile Include="Assets\Scripts\iShootForwardScript.js" />

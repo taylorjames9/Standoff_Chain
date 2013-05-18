@@ -44,6 +44,8 @@ var mainCharacter_script: PlayerScript = mainCharacter.GetComponent("PlayerScrip
 //npc_white1_aimState = npc_white1_script.myCurrTarget;
 mainCharacter_aimState = mainCharacter_script.myCurrTarget;
 
+print("mainCharacter_aimState" + mainCharacter_aimState);
+
 
 if(badGuy1IsDead && badGuy2IsDead){
 		advance = true;

@@ -34,7 +34,7 @@ if (Input.GetMouseButtonDown(0)) {
             	if(hit.collider.gameObject.name == gameObject.name){
              		
              	//load next level
-             	Application.LoadLevel ("");
+             	Application.LoadLevel ("Standoff_Chains_1");
              	
 					}
 				}

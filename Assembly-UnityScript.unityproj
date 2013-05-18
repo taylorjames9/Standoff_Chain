@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\bulletScript.js" />
      <Compile Include="Assets\Scripts\iGotHit.js" />
      <Compile Include="Assets\Scripts\iShootForwardScript.js" />
+     <Compile Include="Assets\Scripts\iShootWhenMyColorShoot.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

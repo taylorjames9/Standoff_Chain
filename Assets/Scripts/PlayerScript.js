@@ -83,7 +83,6 @@ if (Input.GetMouseButtonDown(0)){
 			
 			print("mainCharacter has shot");
 		}
-		
 	}
 }
 }
